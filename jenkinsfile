@@ -1,0 +1,10 @@
+    agent any{
+        stages{
+            stage('checkout'){
+                steps {
+                   git  'https://github.com/SRIKARKUNTA/python-ci.git'
+                }
+            }
+        }
+    }
+}
