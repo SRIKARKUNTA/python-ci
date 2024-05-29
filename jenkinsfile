@@ -5,11 +5,11 @@ pipeline {
                 steps {
                   git branch: 'main', url: 'https://github.com/SRIKARKUNTA/python-ci.git'
                 }
+            }
                 stage('build'){
                 steps {
                   sh '''python3 python.py'''
                 }
             }
-        }
-}
-}
+      }
+    }
