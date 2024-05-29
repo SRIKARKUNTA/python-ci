@@ -8,7 +8,7 @@ pipeline {
             }
              stage('build'){
                 steps {
-                   sh 'python /var/lib/jenkins/workspace/Python\\ ci/python.py "SRIKARKUNTA"'
+                   sh 'python /python-ci$ /python.py //ci/python.py "SRIKARKUNTA"'
                 }
             }
       }
